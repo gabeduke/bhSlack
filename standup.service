@@ -1,0 +1,10 @@
+[Unit]
+Description=Check calendar for standup times & notify slack channel
+
+[Service]
+Type=simple
+ExecStart=/home/gabeduke/standup.sh
+User=gabeduke
+
+[Install]
+WantedBy=multi-user.target
