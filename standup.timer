@@ -2,7 +2,7 @@
 Description=Run standup check daily
 
 [Timer]
-OnCalendar=*-*-* 16:19:00
+OnCalendar=*-*-* 4:00:00
 Unit=standup.service 
 
 [Install]
