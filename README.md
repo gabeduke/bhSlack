@@ -11,6 +11,7 @@ watch calendar events then send reminders
 * instally gcalcli & authenticate with google
 * download slacktee script and add webhook url to config file: [Slacktee](https://github.com/course-hero/slacktee)
 * clone repostitory and cd into directory
+* replace ExecStart path in standup.service to match repository location
 ```bash
 cp standup.* /etc/systemd/system/standup.*
 systemclt daemon-reload
