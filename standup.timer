@@ -1,0 +1,9 @@
+[Unit]
+Description=Run standup check daily
+
+[Timer]
+OnCalendar=*-*-* 16:19:00
+Unit=standup.service 
+
+[Install]
+WantedBy=multi-user.target 
