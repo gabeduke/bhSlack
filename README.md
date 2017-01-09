@@ -8,7 +8,7 @@ watch calendar events then send reminders
 * slacktee is the method to interface with the slack api to post the reminder to a specified channel
 
 # Install
-* instally gcalcli & authenticate with google
+* instally [gcalcli](https://github.com/insanum/gcalcli) & authenticate with google
 * download slacktee script and add webhook url to config file: [Slacktee](https://github.com/course-hero/slacktee)
 * clone repostitory and cd into directory
 * replace ExecStart path in standup.service to match repository location
