@@ -16,4 +16,5 @@ watch calendar events then send reminders
 cp standup.* /etc/systemd/system/standup.*
 systemclt daemon-reload
 systemctl enable standup.timer
-systemctl start standup.timer```
+systemctl start standup.timer
+```
